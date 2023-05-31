@@ -1,0 +1,48 @@
+@import './modules/fonts'
+@import './modules/variables'
+@import './modules/text'
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Neue Montreal'
+
+body
+  color: $black
+
+.container-wide
+  max-width: 1320px
+  width: 90%
+  margin: 0 auto
+
+.container
+  max-width: 1170px
+  width: 90%
+  margin: 0 auto
+
+ul
+  display: flex
+  list-style-type: none
+
+a
+  text-decoration: none
+  color: inherit
+
+button
+  outline: none
+  border: none
+  background-color: transparent
+
+input
+  background-color: transparent
+  border: none
+  outline: none
+
+img, svg
+  max-width: 100%
+  flex-shrink: 0
+  display: flex
+
+.nuxt-icon svg
+  margin-bottom: 0 !important
