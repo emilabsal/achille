@@ -28,7 +28,7 @@ defineProps({
   iconRight: String,
   design: {
     type: String,
-    default: 'default'
+    default: ''
   }
 })
 </script>
@@ -37,6 +37,8 @@ defineProps({
 .button
   display: inline-flex
   align-items: center
+  flex-shrink: 0
+  white-space: nowrap
   &-label
     color: inherit
     font-size: inherit

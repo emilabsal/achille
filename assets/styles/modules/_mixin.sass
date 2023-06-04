@@ -1,0 +1,2 @@
+@function size($min, $max)
+  @return calc($max * 1px - ($max - $min) * (1px - (min($container * 1px, 100vw) - $minScreen * 1px) / ($container - $minScreen)))

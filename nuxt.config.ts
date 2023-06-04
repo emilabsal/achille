@@ -7,6 +7,8 @@ export default defineNuxtConfig({
         sass: {
           additionalData: `
             @import "./assets/styles/modules/_variables.sass"
+            @import "./assets/styles/modules/_media.sass"
+            @import "./assets/styles/modules/_mixin.sass"
           `
         }
       }
@@ -19,5 +21,5 @@ export default defineNuxtConfig({
       prefix: 'the'
     }
   ],
-  modules: ['nuxt-icons']
+  modules: ['nuxt-icons', '@nuxt/content']
 })
